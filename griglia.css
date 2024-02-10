@@ -1,0 +1,28 @@
+/* Imposta la griglia */
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Assegna un nome alle aree */
+.area1 { grid-area: 1 / 1 / 1 / 3; }
+.area2 { grid-area: 2 / 1 / 2 / 3; }
+.area3 { grid-area: 3 / 1 / 3 / 3; }
+.area4 { grid-area: 2 / 1 / 3 / 2; }
+.area5 { grid-area: 2 / 2 / 3 / 3; }
+.area6 { grid-area: 2 / 3 / 3 / 4; }
+.area7 { grid-area: 3 / 1 / 4 / 2; }
+.area8 { grid-area: 3 / 2 / 4 / 3; }
+.area9 { grid-area: 3 / 3 / 4 / 4; }
+
+/* Personalizza le aree */
+.area1 { background-color: red; }
+.area2 { background-color: green; }
+.area3 { background-color: blue; }
+.area4 { background-color: yellow; }
+.area5 { background-color: orange; }
+.area6 { background-color: purple; }
+.area7 { background-color: pink; }
+.area8 { background-color: cyan; }
+.area9 { background-color: gray; }
